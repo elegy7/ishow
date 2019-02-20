@@ -7,3 +7,6 @@ PC端配置 生成H5
 
 目前前端webpack/parcel+vue2  后台是node+NEST+typescript
 
+![image](https://raw.githubusercontent.com/elegy7/ishow/master/NEST/public/images/1.png)
+
+![image](https://raw.githubusercontent.com/elegy7/ishow/master/NEST/public/images/2.png)
