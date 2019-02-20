@@ -1,0 +1,70 @@
+{
+    "_id": "555ede542396c96822ffd2e4",
+    "userid": "55471afd00e9906412a62f63",
+    "__v": 23,
+    "createTime": "2015-05-22T07:43:59.999Z",
+    "state": "2",
+    "pages": [
+        {
+            "src": "./config/upload_e3901c3eee7e2d1ad7422f6aa350897f.png",
+            "pageIndex": 2,
+            "_id": "555ef01e2396c96822ffd2f1"
+        },
+        {
+            "src": "./config/upload_24b145ea7c1a633484c901d6eb06c16b.png",
+            "pageIndex": 3,
+            "_id": "555ef7692396c96822ffd2fb"
+        },
+        {
+            "src": "./config/upload_4bb70202a426be5da35112629a36e675.png",
+            "pageIndex": 5,
+            "_id": "555ef9002396c96822ffd309"
+        },
+        {
+            "src": "./config/upload_b0194963441f5cc738b5d581fc7105f5.png",
+            "pageIndex": 6,
+            "_id": "555efda42396c96822ffd313"
+        },
+        {
+            "src": "./config/upload_36911f15cfa9de68e993d14803c3452e.png",
+            "pageIndex": 7,
+            "_id": "555efeff2396c96822ffd31d"
+        },
+        {
+            "src": "./config/upload_72e14ab447b86cb27f5d143fea0bb451.png",
+            "pageIndex": 8,
+            "_id": "555f02152396c96822ffd325"
+        },
+        {
+            "src": "./config/upload_7a101ade73c69aa33858e6df12332249.png",
+            "pageIndex": 9,
+            "_id": "555f02c92396c96822ffd32e"
+        },
+        {
+            "src": "./config/upload_9bbf902069baa29ad7d4d6ecbb1575d8.png",
+            "pageIndex": 10,
+            "_id": "555f03dd2396c96822ffd338"
+        },
+        {
+            "src": "./config/upload_d5190d9942e85a95aad387ea9fd0e19d.png",
+            "pageIndex": 11,
+            "_id": "555f04aa2396c96822ffd340"
+        },
+        {
+            "src": "./config/upload_3bfe8dc7d593250f22bcdf26265f4eda.png",
+            "pageIndex": 12,
+            "_id": "555f05292396c96822ffd347"
+        },
+        {
+            "src": "./config/upload_998539959e4514ff8ea6e064db9f6dd7.png",
+            "pageIndex": 13,
+            "_id": "555f11742396c96822ffd361"
+        }
+    ],
+    "loadingType": "white",
+    "allowLoop": true,
+    "swipeType": "3",
+    "iconUrl": "./config/",
+    "musicUrl": "./config/",
+    "title": "Hi, Cypress"
+}

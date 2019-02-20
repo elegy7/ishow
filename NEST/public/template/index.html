@@ -1,0 +1,18 @@
+<!DOCTYPE html><html lang="zh-cn"> <head> <meta charset="utf-8"> <title>ishow</title> <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;"> <link rel="stylesheet icon" href="logo.cee12cad.ico"> <link rel="stylesheet" href="app.aad8ecdc.css"></head> <body class="bodybox"> <script>window.debug=!0;</script> <div id="app"> <div class="wrap" id="wrap"> <div :class="['page-' + (index+1), 'page']" v-for="(page, index) in pages" :style="{backgroundImage: 'url('+ HOMEURI + page.src +')'}"> <div class="box">  <div class="mod_container" :style="{transform: 'scale('+scaleX+', '+scaleY+')'}"> <div v-for="item in page.items" :class="['item-little', item.animate]" :style="{
+                                    backgroundImage: item.src && 'url('+ HOMEURI + item.src +')',
+                                    animationDelay: item.delay +'ms',
+                                    animationDuration: item.speed +'ms',
+                                    transition: 'all ' + item.speed+'ms ' + item.delay +'ms ease-out',
+                                    lineHeight: item.height + 'px',
+                                    height: item.height + 'px',
+                                    width: item.width + 'px',
+                                    left: item.translateX + 'px',
+                                    top: item.translateY + 'px',
+                                    color: item.color,
+                                    border: item.borderColor ? '1px solid ' + item.borderColor : '',
+                                    backgroundColor: item.bgColor,
+                                    borderRadius: item.radius,
+                                    fontWeight: item.textWeight,
+                                    fontSize: item.fontSize,
+                                    textAlign: item.textAlign
+                                }"> {{ item.text }} </div> </div> </div> </div> </div>  <div class="item-loading" style="max-height:960px;max-width:640px;" v-show="precent < 100"> <img src="loading.adcd3a30.png"> <div class="loading-box" style="color:#4b4b4b;"><span id="precent" v-text="precent + '%'"></span></div> </div>  <audio id="m_audio" :src="HOMEURI + app.musicUrl" loop="" v-if="app.musicUrl"></audio> <div class="music_f"> <img src="voice.72c03616.gif" @click="pauseAudio" v-show="audioStatus == 'playing'"> <img src="voice.2cb7ad38.png" @click="playAudio" v-show="audioStatus == 'pause'"> </div>  <canvas id="itemDraw" class="item-draw" :data-backbround="draw" :data-mask="drawmask"></canvas>  <ul class="help-tip" v-show="showMenu"> <li class="move-prev" @click="prev">PREV</li> <li class="move-next" @click="next">NEXT</li> </ul> </div> <script src="https://cdn.bootcss.com/zepto/1.2.0/zepto.min.js"></script> <script src="http://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script> <script type="text/javascript" src="app.6c8a1857.js"></script> </body> </html>

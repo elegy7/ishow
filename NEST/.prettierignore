@@ -1,0 +1,4 @@
+.prettierrc
+.prettierignore
+*.json
+webpack.config.js

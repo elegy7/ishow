@@ -1,0 +1,90 @@
+{
+    "_id": "5527949bea2adb5c0e3deafc",
+    "userid": "55471afd00e9906412a62f63",
+    "__v": 47,
+    "createTime": "2015-04-10T08:58:50.285Z",
+    "state": "2",
+    "pages": [
+        {
+            "src": "./config/upload_462a108d9eca7aa49a5e0b9f6f8aca00.png",
+            "pageIndex": 1,
+            "_id": "552b44c1c89e7dd407ab30e4"
+        },
+        {
+            "src": "./config/upload_e18904909db9438f1bb91cef6eceee56.png",
+            "pageIndex": 2,
+            "_id": "552b60d6caa887b00a0da0fd"
+        },
+        {
+            "src": "./config/upload_1585798ae2581287c13a9d8e5f395a20.png",
+            "pageIndex": 3,
+            "_id": "552b62d1caa887b00a0da107"
+        },
+        {
+            "src": "./config/upload_1bb0df910c030ebfeca5da01e2d8d5af.png",
+            "pageIndex": 4,
+            "_id": "552b6d389cdc33e811c4bc7b"
+        },
+        {
+            "src": "./config/upload_ef661307c943247d0f42af78d07ae3df.png",
+            "pageIndex": 5,
+            "_id": "552b85cd7dd39c101538dc29"
+        },
+        {
+            "src": "./config/upload_85212664a93607afe5c62896f10871b1.png",
+            "pageIndex": 6,
+            "_id": "552b89c47dd39c101538dc35"
+        },
+        {
+            "src": "./config/upload_4c8367ebd108a215104a3f221c398fb9.png",
+            "pageIndex": 7,
+            "_id": "552b8b647dd39c101538dc42"
+        },
+        {
+            "src": "./config/upload_50484fa80908fe6a4706a8e65438c512.png",
+            "pageIndex": 8,
+            "_id": "552b91087dd39c101538dc55"
+        },
+        {
+            "src": "./config/upload_50484fa80908fe6a4706a8e65438c512.png",
+            "pageIndex": 9,
+            "_id": "552b93a87dd39c101538dc5e"
+        },
+        {
+            "src": "./config/upload_50484fa80908fe6a4706a8e65438c512.png",
+            "pageIndex": 10,
+            "_id": "552c722e4a0ff2b8028a8311"
+        },
+        {
+            "src": "./config/upload_50484fa80908fe6a4706a8e65438c512.png",
+            "pageIndex": 11,
+            "_id": "552c88f099b5a45c15fe6383"
+        },
+        {
+            "src": "./config/upload_50484fa80908fe6a4706a8e65438c512.png",
+            "pageIndex": 12,
+            "_id": "552c901399b5a45c15fe63ac"
+        },
+        {
+            "src": "./config/upload_50484fa80908fe6a4706a8e65438c512.png",
+            "pageIndex": 13,
+            "_id": "552cc2709b270f2017606c44"
+        },
+        {
+            "src": "./config/upload_413e1af1265ddde633d0345134223b15.png",
+            "pageIndex": 14,
+            "_id": "552cc4169b270f2017606c51"
+        },
+        {
+            "src": "./config/upload_c490ab522165e1eaaba4b04d81da50b7.png",
+            "pageIndex": 15,
+            "_id": "552cc4e69b270f2017606c5c"
+        }
+    ],
+    "loadingType": "white",
+    "allowLoop": false,
+    "swipeType": "3",
+    "iconUrl": "./config/",
+    "musicUrl": "./config/upload_12492ce5971371381f0d5ad312cde855.mp3",
+    "title": "揭开超级英雄现世的隐藏面具!"
+}

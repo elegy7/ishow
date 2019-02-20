@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Nest</title>
+        <style>
+            html {
+                color: #222222;
+            }
+        </style>
+    </head>
+    <body>
+        <h4>Hello World</h4>
+        <button onClick="register()">通过用户名注册</button>
+        <button onClick="register(true)">通过邮箱注册</button> <br /><br />
+        <form action="/api/image/upload" method="POST" enctype="multipart/form-data">
+            <input type="file" multiple="false" name="files" /><br />
+            <button type="submit">提交</button>
+        </form>
+        <script>
+            fetch('/api/user/login', {
+                method: 'POST',
+                headers: {
+                    'content-type': 'application/json;charset=utf-8'
+                },
+                body: JSON.stringify({
+                    loginame: 'elegy7@hotmail.com',
+                    password: '3D9188577CC9BFE9291AC66B5CC872B7'
+                })
+            })
+                .then(res => res.json())
+                .then(data => {
+                    console.log('login', data)
+                })
+            window.register = function(registerByEmail) {
+                console.log('invoke')
+                fetch(registerByEmail ? '/api/user/registerByEmail' : '/api/user/register', {
+                    method: 'POST',
+                    headers: {
+                        'content-type': 'application/json;charset=utf-8'
+                    },
+                    body: JSON.stringify({
+                        username: registerByEmail ? undefined : 'user_' + new Date().getTime(),
+                        password: '3D9188577CC9BFE9291AC66B5CC872B7',
+                        email: registerByEmail ? new Date().getTime() + '@hotmail.com' : undefined
+                    })
+                })
+                    .then(res => res.json())
+                    .then(data => {
+                        console.log('register', data)
+                    })
+            }
+        </script>
+    </body>
+</html>

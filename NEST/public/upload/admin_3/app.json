@@ -1,0 +1,60 @@
+{
+    "_id": "5577a09db567ecb42f42bfd0",
+    "userid": "55471afd00e9906412a62f63",
+    "__v": 11,
+    "createTime": "2015-06-10T02:26:27.094Z",
+    "state": "2",
+    "pages": [
+        {
+            "src": "./config/upload_85ae08ddce3f4d69a35c598b5045e7f6.jpg",
+            "pageIndex": 1,
+            "_id": "5577a0cdb567ecb42f42bfda"
+        },
+        {
+            "src": "./config/upload_7db26468aab1c4659353482abb00a814.jpg",
+            "pageIndex": 2,
+            "_id": "5577a11eb567ecb42f42bfdb"
+        },
+        {
+            "src": "./config/upload_a725303ecaec87fd7e253174a1b6e8a3.jpg",
+            "pageIndex": 3,
+            "_id": "5577a40f9439dc04124b992e"
+        },
+        {
+            "src": "./config/upload_0b123aa6277699873041f0ff6c5a7424.jpg",
+            "pageIndex": 4,
+            "_id": "5577a4c49439dc04124b9936"
+        },
+        {
+            "src": "./config/upload_2e1e791a887f96a5fce7529f5c4d5a94.jpg",
+            "pageIndex": 5,
+            "_id": "5577a4c89439dc04124b9937"
+        },
+        {
+            "src": "./config/upload_8ef9e43bfe2ba32b266958704ab9bb8a.jpg",
+            "pageIndex": 6,
+            "_id": "5577a4cb9439dc04124b9938"
+        },
+        {
+            "src": "./config/upload_0ad7362fa7998582bf3597a9f2794446.jpg",
+            "pageIndex": 7,
+            "_id": "5577a4cd9439dc04124b9939"
+        },
+        {
+            "src": "./config/upload_57155e1210a8ec92b1105358bccd2ef7.jpg",
+            "pageIndex": 8,
+            "_id": "5577a4d09439dc04124b993a"
+        },
+        {
+            "src": "./config/upload_2a4332b55734aa5a97edff6a2fd1b69b.jpg",
+            "pageIndex": 9,
+            "_id": "5577a4dc9439dc04124b993b"
+        }
+    ],
+    "loadingType": "white",
+    "allowLoop": true,
+    "swipeType": "2",
+    "iconUrl": "./config/",
+    "musicUrl": "./config/upload_2d78dff670e3a46e4f34ea83005972e1.mp3",
+    "title": "有样"
+}
