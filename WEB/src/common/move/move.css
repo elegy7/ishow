@@ -1,0 +1,84 @@
+.item-block-plugin{
+    z-index: 999 !important;
+}
+.config-panel{
+    -ms-user-select :none;
+    -webkit-user-select :none;
+    -o-user-select :none;
+    -moz-user-select :none;
+    user-select:none;
+    cursor: default;
+}
+.item-little{
+    max-width: inherit !important;
+}
+.item-little-actived{
+    cursor: move;
+    display: inline-block;
+    z-index: 999 !important;
+}
+.item-block{
+    cursor: move;
+    position: relative; 
+    height: 100px;
+    width: 100px;
+    left: 0;
+    top: 0; 
+    filter: alpha(opacity=0); 
+    opacity: 0; 
+    -moz-opacity: 0; 
+    z-index: 99;
+}
+.block-line{
+    position: absolute;
+    background-image: url('./line.gif');
+    z-index: 2;
+}
+.block-spot{
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-radius: 0;
+    background-color: rgb(45,45,45);
+    z-index: 3;
+}
+.spot-top{
+    margin-top:-4px;
+    margin-left: -4px;
+    cursor: n-resize;
+}
+.spot-down{
+    margin-top:-4px;
+    margin-left: -4px;
+    cursor: n-resize;
+}
+.spot-left{
+    margin-left:-4px;
+    margin-top:-4px;
+    cursor: e-resize;
+}
+.spot-right{
+    margin-left:-4px;
+    margin-top:-4px;
+    cursor: e-resize;
+}
+.spot-right-top{
+    margin-top:-4px;
+    margin-left:-4px;
+    cursor: ne-resize;
+}
+.spot-right-down{
+    margin-top:-4px;
+    margin-left:-4px;
+    cursor: se-resize;
+}
+.spot-left-top{
+    margin-left:-4px;
+    margin-top:-4px;
+    cursor: nw-resize;
+}
+.spot-left-down{
+    margin-left:-4px;
+    margin-top:-4px;
+    cursor: sw-resize;
+}

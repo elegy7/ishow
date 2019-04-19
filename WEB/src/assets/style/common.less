@@ -1,0 +1,117 @@
+@import './support.less';
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: @white;
+    font-family: '微软雅黑';
+    color: @font-black !important;
+}
+
+body {
+    overflow: auto;
+}
+
+iframe {
+    border: none;
+    padding: none;
+}
+
+.fr {
+    float: right !important;
+}
+
+.fl {
+    float: left !important;
+}
+
+.btn {
+    min-width: 90px;
+    &.btn-xs {
+        min-width: 60px;
+        line-height: 18px;
+        font-size: 11px;
+        padding: 0.25rem 0.5rem;
+    }
+}
+
+.content {
+    position: absolute;
+    top: 50px;
+    bottom: 30px;
+    max-width: 100% !important;
+    min-width: 1440px;
+    overflow: hidden;
+}
+
+.hr-title {
+    margin-top: -20px;
+    width: 100%;
+    text-align: center;
+    color: @red;
+}
+
+/* 
+input[type=file] {
+    margin-right: -50px;
+} */
+.warpper .i-upload {
+    max-height: 530px;
+    .i-upload-prev {
+        background-color: rgba(0, 0, 0, 0.8);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        &.small {
+            max-width: 240px;
+            height: auto;
+        }
+        &:not(.big) {
+            background-size: contain;
+        }
+    }
+}
+.image-detail {
+    cursor: pointer;
+}
+
+/* ========================  Adrai start  ===================== */
+.hiddenBox,
+.hidden,
+.hide {
+    display: none;
+}
+
+.mt5 {
+    margin-top: 5px;
+}
+.mt10 {
+    margin-top: 10px;
+}
+
+input[type='file']oatLeft {
+    float: left;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-noraml {
+    margin: 0;
+    color: #666;
+}
